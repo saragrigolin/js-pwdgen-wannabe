@@ -19,7 +19,7 @@ console.log('Colore preferito utente ' + colorePreferitoUtente);
 // Variabile per numero 21
 let number = 21;
 
-// Scrivi sulla pagina nomecognomecolorepreferito21
+// Scrivo sulla pagina nomecognomecolorepreferito21
 let password = nomeUtente + cognomeUtente + colorePreferitoUtente + number;
 console.log(password);
 document.getElementById('password').innerHTML = '<h1>' + password + '</h1>';
